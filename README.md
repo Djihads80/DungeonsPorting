@@ -1,7 +1,8 @@
-FortnitePorting - Automation of the Fortnite Porting Process
+DungeonsPorting - Automation of the Minecraft Dungeons Porting Process
 ------------------------------------------
 
 #### Powered by [Avalonia UI](https://avaloniaui.net/) and [CUE4Parse](https://github.com/FabianFG/CUE4Parse)
+#### Forked from [FortnitePorting](https://github.com/halfuwu/FortnitePorting)
 
 [![Discord](https://discord.com/api/guilds/866821077769781249/widget.png?style=shield)](https://discord.gg/DZ5YFXdBA6)
 [![Blender](https://img.shields.io/badge/Blender-4.2+-blue?logo=blender&logoColor=white&color=orange)](https://www.blender.org/download/)
@@ -12,16 +13,16 @@ FortnitePorting - Automation of the Fortnite Porting Process
 
 ![image](https://github.com/user-attachments/assets/960d0dc5-695f-43b6-be0c-db74efdf1a17)
 
-## Building FortnitePorting
+## Building DungeonsPorting
 
-To build FortnitePorting from source, first clone the repository and all of its submodules.
+To build DungeonsPorting from source, first clone the repository and all of its submodules.
 
 ```
-git clone -b v3 https://github.com/halfuwu/FortnitePorting --recursive
+git clone -b v3 https://github.com/Djihads80/DungeonsPorting --recursive
 ```
 
 Then open the project directory in a terminal window and publish
 
 ```
-dotnet publish FortnitePorting -c Release --no-self-contained -r win-x64 -o "./Release" -p:PublishSingleFile=true -p:DebugType=None -p:DebugSymbols=false -p:IncludeNativeLibrariesForSelfExtract=true
+dotnet publish DungeonsPorting -c Release --no-self-contained -r win-x64 -o "./Release" -p:PublishSingleFile=true -p:DebugType=None -p:DebugSymbols=false -p:IncludeNativeLibrariesForSelfExtract=true
 ```
